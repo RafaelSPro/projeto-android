@@ -1,1 +1,36 @@
 @charset "UTF-8";
+
+font-face {
+    src: url(fontes/idroid.otf);
+    font-family: 'Android';
+    font-weight: normal;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+
+:root {
+    --fonte-principal: Arial, Helvetica, sans-serif;
+    --fonte-destaque: 'Alata', sans-serif;
+    --fonte-android:'Android' , sans-serif;
+
+    --cor1: rgb(144, 241, 144) ;
+    --cor2: rgb(80, 180, 80)  ;
+    --cor3: rgb(46, 151, 46) ;
+    --cor4: rgb(42, 107, 42) ;
+    --cor5: rgb(24, 80, 24)  ;
+}
+
+
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+main {
+    font-family: 
+}
