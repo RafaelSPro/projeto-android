@@ -35,8 +35,15 @@ body {
     background-color: var(--cor0);
 }
 
+main {
+    background-color: white;
+    min-width: 350;
+    max-width: 1000px;
+    margin: auto;
+}
+
 main h1 {
-    color: var(--cor5);
+    color: var(--cor4);
    
 }
 
