@@ -1,18 +1,17 @@
 @charset "UTF-8";
 
 font-face {
-    src: url(fontes/idroid.otf) format('opentype');
-    font-family: 'Android';
+    src: url(fontes/idroid.otf), format('opentype');
+    font-family:'Android';
     font-weight: normal;
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 :root {
     --fonte-principal: Arial, Helvetica, sans-serif;
-    --fonte-destaque: 'Alata', sans-serif;
+    --fonte-destaque: 'Bebas Neue', 'cursive';
     --fonte-android:'Android' , sans-serif;
 
     --cor0:#c5ebd6;
@@ -36,12 +35,14 @@ body {
     background-color: var(--cor0);
 }
 
-main {
+main h1 {
+    color: var(--cor5);
    
 }
 
 header {
    background-image: linear-gradient(var(--cor3), var(--cor4));
+   min-height: 150px;
    
    
 }
@@ -49,6 +50,9 @@ header {
 header > h1 {
     text-align: center;
     font-family: var(--fonte-destaque);
+    color: white;
+    padding: 20px;
+    font-size: 49px;
     
 
 }
@@ -56,8 +60,26 @@ header > h1 {
 header > p {
     text-align: center;
     font-family: var(--fonte-principal);
+    color: white;
+    font-size: 1em;
+    max-width: 500px;
+    margin:auto;
+    padding-bottom: 10px;
 }
 
 nav {
+    
+    background-color:var(--cor4) ;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+nav > a :hover {
     text-decoration: underline;
+    
 }
