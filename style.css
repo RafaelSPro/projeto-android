@@ -33,27 +33,31 @@ font-face {
 
 
 body {
-    background-color: white;
+    background-color: var(--cor0);
 }
 
 main {
-    min-width: 300px;
-    max-width: 1000px;
+   
 }
 
 header {
-    padding: 20px 20px;
-    padding-bottom: 20px ;
-    margin-bottom: 20px;
+   background-image: linear-gradient(var(--cor3), var(--cor4));
+   
+   
 }
 
 header > h1 {
     text-align: center;
     font-family: var(--fonte-destaque);
+    
 
 }
 
 header > p {
     text-align: center;
     font-family: var(--fonte-principal);
+}
+
+nav {
+    text-decoration: underline;
 }
