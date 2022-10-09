@@ -133,9 +133,11 @@ main img {
     margin: auto;
 }
 
-article h2 {
+article  h2 {
     font-family: var(--fonte-android);
     color: var(--cor4);
+    margin-top: 10px;
+    padding-top: 5px;
     padding-left: 20px;
     background-image: linear-gradient(var(--cor1), var(--cor0));
     font-weight: bold;
@@ -165,8 +167,37 @@ ul {
     list-style-position: inside ;
 }
 
+div.video {
+    background-color: var(--cor4) ;
+    margin-bottom: 30px;
+    position: relative;
+    padding-bottom: 59%;
+    margin-left: 1px;
+    margin-right: 1px ;
+
+
+
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5% ;
+    left: 5% ;
+    width: 90%;
+    height: 90%;
+}
+
 footer {
     text-align: center;
     background-color: var(--cor4);
     margin-top: 20px;
+    font-family: var(--fonte-principal);
+    padding-top: 5px;
+   
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 5px 0px 5px;
 }
