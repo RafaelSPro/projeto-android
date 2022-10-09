@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
-font-face {
-    src: url(fontes/idroid.otf), format('opentype');
+@font-face {
+    src: url(fontes/idroid.otf) format('opentype');
     font-family:'Android';
     font-weight: normal;
 }
@@ -42,10 +42,7 @@ main {
     margin: auto;
 }
 
-main h1 {
-    color: var(--cor4);
-   
-}
+
 
 header {
    background-image: linear-gradient(var(--cor3), var(--cor4));
@@ -90,3 +87,18 @@ nav > a :hover {
     text-decoration: underline;
     
 }
+
+article > h1 {
+    padding-top: 20px;
+    padding-left: 10px;
+    font-family: var(--fonte-android);
+    color: var(--cor4);
+}
+
+main  p {
+    text-align: justify;
+    line-height: 1.5em;
+    padding: 20px 20px;
+}
+
+
