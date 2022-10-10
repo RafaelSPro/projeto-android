@@ -171,10 +171,10 @@ article  h2 {
 aside > h3 {
     font-family: var(--fonte-principal);
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     background-color: var(--cor4);
     padding: 10px;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
 }
 
 aside {
@@ -182,7 +182,7 @@ aside {
     margin: auto;
     border-radius: 5px 5px;
     box-shadow: 15px 10px 30px rgba(0, 0, 0, 0.267);
-    padding: 10px;
+    padding-bottom: 20px;
 }
 
 ul {
