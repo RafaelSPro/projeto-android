@@ -76,7 +76,7 @@ header {
    max-height: 300px;
    padding: 30px;
    box-shadow: 20px 15px 40px rgba(0, 0, 0, 0.527);
-   min-width: 350px;
+   min-width: 300px;
    
    
 }
@@ -100,7 +100,6 @@ header > p {
     font-family: var(--fonte-principal);
     color: white;
     font-size: 1em;
-    max-width: 500px;
     margin:auto;
     padding-bottom: 10px;
 }
