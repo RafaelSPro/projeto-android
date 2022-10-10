@@ -84,6 +84,8 @@ header > h1 {
     color: white;
     padding: 20px;
     font-size: 3em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.301);
+    display: block;
     
 
 }
@@ -133,7 +135,7 @@ article > h1 {
 
 main  p {
     text-align: justify;
-    text-indent: 10px;
+    text-indent: 20px;
     line-height: 1.5em;
     padding: 20px 20px;
     font-family: var(--fonte-principal);
@@ -178,8 +180,6 @@ aside > h3 {
 aside {
     background-color: var(--cor1);
     height: 500px;
-    max-width: 950px;
-    min-width: 300px;
     margin: auto;
     border-radius: 20px 20px;
     box-shadow: 15px 10px 30px rgba(0, 0, 0, 0.267);
