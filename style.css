@@ -12,7 +12,7 @@
 :root {
     --fonte-principal: Arial, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', 'cursive';
-    --fonte-android:'Android' , sans-serif;
+    --fonte-android:'Android', sans-serif;
 
     --cor0:#c5ebd6;
     --cor1:#83e1ad ;
@@ -53,6 +53,7 @@ a.externo {
 
 body {
     background-color: rgba(255, 235, 205, 0.616);
+    
 }
 
 main {
@@ -60,7 +61,6 @@ main {
     min-width: 350;
     max-width: 1000px;
     margin: auto;
-    margin-bottom: 20px;
 }
 
 
