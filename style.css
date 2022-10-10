@@ -59,7 +59,7 @@ body {
 
 main {
     background-color: white;
-    min-width: 350px;
+    min-width: 300px;
     max-width: 1000px;
     margin: auto;
     margin-bottom: 20px;
@@ -73,7 +73,7 @@ main {
 header {
    background-image: linear-gradient(var(--cor3), var(--cor4));
    min-height: 150px;
-   max-height: 350px;
+   max-height: 300px;
    padding: 30px;
    box-shadow: 20px 15px 40px rgba(0, 0, 0, 0.527);
    min-width: 350px;
@@ -132,10 +132,6 @@ article > h1 {
     font-family: var(--fonte-android);
     color: var(--cor5);
     font-size: 30px;
-    
-    
-    
-    
 }
 
 main  p {
@@ -147,6 +143,12 @@ main  p {
 }
 
 main img {
+    margin: auto;
+    width: 100%;
+}
+
+main img.pequena {
+    width: 50%;
     display: block;
     margin: auto;
 }
