@@ -92,6 +92,7 @@ header > h1 {
     
     
     
+    
 
 }
 
@@ -99,7 +100,7 @@ header > p {
     text-align: center;
     font-family: var(--fonte-principal);
     color: white;
-    font-size: 1em;
+    font-size: 1.2em;
     margin:auto;
     padding-bottom: 10px;
     max-width: 600px;
