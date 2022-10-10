@@ -89,7 +89,7 @@ header > h1 {
     padding-top: 20px;
     font-size: 3em;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.301);
-    min-width: 300px;
+    
     
     
 
@@ -131,9 +131,8 @@ article > h1 {
     padding-left: 20px;
     font-family: var(--fonte-android);
     color: var(--cor5);
-    font-size: 40px;
-    min-width: 300px;
-    max-width: 1000px;
+    font-size: 30px;
+    
     
     
     
