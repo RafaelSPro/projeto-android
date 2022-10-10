@@ -7,7 +7,7 @@
 }
 
 
-@import { url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); }
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 :root {
     --fonte-principal: Arial, Helvetica, sans-serif;
@@ -83,7 +83,7 @@ header {
 
 header > h1 {
     text-align: center;
-    font-family: var(--fonte-destaque);
+    font-family:var(--fonte-destaque);
     color: white;
     padding-bottom: 20px;
     padding-top: 20px;
