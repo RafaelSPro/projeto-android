@@ -53,14 +53,13 @@ a.externo {
 
 body {
     background-color: rgba(255, 235, 205, 0.616);
-    max-width: 1000px;
-    min-width: 350px;
+    
     
 }
 
 main {
     background-color: white;
-    min-width: 300px;
+    min-width: 350px;
     max-width: 1000px;
     margin: auto;
     margin-bottom: 20px;
@@ -132,8 +131,9 @@ article > h1 {
     font-family: var(--fonte-android);
     color: var(--cor5);
     font-size: 40px;
-    max-width: 1000px;
     min-width: 300px;
+    max-width: 1000px;
+    
     
     
 }
