@@ -171,7 +171,7 @@ article  h2 {
 aside > h3 {
     font-family: var(--fonte-principal);
     color: white;
-    font-size: 20px;
+    font-size: 17px;
     background-color: var(--cor4);
     padding: 10px;
     border-radius: 5px 5px 0px 0px;
@@ -183,6 +183,10 @@ aside {
     border-radius: 5px 5px;
     box-shadow: 15px 10px 30px rgba(0, 0, 0, 0.267);
     padding-bottom: 20px;
+    min-width: 350px ;
+    max-width: 1000px ;
+    min-height: 300px ;
+    max-height: 1200px ;
 }
 
 ul {
