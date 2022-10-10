@@ -53,6 +53,7 @@ a.externo {
 
 body {
     background-color: rgba(255, 235, 205, 0.616);
+    min-width: 300px;
     
     
 }
