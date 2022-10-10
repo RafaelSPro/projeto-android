@@ -73,9 +73,10 @@ main {
 header {
    background-image: linear-gradient(var(--cor3), var(--cor4));
    min-height: 150px;
-   max-height: 300px;
+   max-height: 350px;
    padding: 30px;
    box-shadow: 20px 15px 40px rgba(0, 0, 0, 0.527);
+   min-width: 350px;
    
    
 }
