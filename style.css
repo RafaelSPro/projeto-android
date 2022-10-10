@@ -58,7 +58,7 @@ body {
 
 main {
     background-color: white;
-    min-width: 300px;
+    min-width: 500px;
     max-width: 1000px;
     margin: auto;
     margin-bottom: 20px;
@@ -129,7 +129,7 @@ article > h1 {
     color: var(--cor5);
     font-size: 40px;
     max-width: 1000px;
-    min-width: 300px;
+    min-width: 500px;
     
     
 }
@@ -184,7 +184,7 @@ aside {
     border-radius: 5px 5px;
     box-shadow: 15px 10px 30px rgba(0, 0, 0, 0.267);
     padding-bottom: 20px;
-    min-width: 300px ;
+    min-width: 500px ;
     max-width: 1000px ;
     min-height: 300px ;
     max-height: 1200px ;
